@@ -1,5 +1,25 @@
 # Tp1-exercice3
- exercice 3
+ exercice 3 : Quiz E-Certification
+ 
+ Description:
+ 
+Cette application propose un quiz avec retour sur les réponses.
+
+Fonctionnalités:
+
+•	Questions à choix multiples.
+•	Affichage de la correction.
+
+Instructions:
+1.	Répondez aux questions.
+2.	Appuyez sur le bouton pour afficher les résultats.
+   
+Technologies utilisées:
+
+•	Android Studio
+•	Java
+
+ 
  Enoncer
  
 Soit l’interface graphique suivante :                                                                                                                                 
