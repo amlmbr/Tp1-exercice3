@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E-certificate</string>
+    <string name="premierequestion">1 . Le pattern MVC signifie :</string>
+    <string name="dexiemequestion">2 . La syntaxe $[x] est permise dans JSP:</string>
+</resources>

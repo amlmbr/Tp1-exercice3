@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/validation_image"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/android"
+                android:layout_marginRight="8dp"
+                android:contentDescription="Validation Icon" />
+
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#0000FF" />
+
+    <TextView
+        android:id="@+id/premierequestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/premierequestion"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/un"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiple Versions Combined" />
+
+        <CheckBox
+            android:id="@+id/deux"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Model View Controler" />
+
+        <CheckBox
+            android:id="@+id/trois"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Value Compiled" />
+
+        <CheckBox
+            android:id="@+id/quatre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mandatory Validated Controls" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dexiemequestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dexiemequestion"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <RadioButton
+                android:id="@+id/oui"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oui" />
+
+            <RadioButton
+                android:id="@+id/nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nom" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:id="@+id/quiter"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:background="@drawable/header"
+            android:text="Quitter"
+            android:textColorLink="#80800C"
+            android:textDirection="firstStrongRtl" />
+
+        <Button
+            android:id="@+id/suivant"
+            android:layout_width="101dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/header"
+            android:text="Suivant"
+            android:textColorLink="#808080" />
+    </LinearLayout>
+
+</LinearLayout>
